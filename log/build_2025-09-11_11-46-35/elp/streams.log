@@ -1,0 +1,109 @@
+[0.015s] Invoking command in '/home/jpalves/dev_ws/src/elp/build/elp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake /home/jpalves/dev_ws/src/elp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jpalves/dev_ws/src/elp/install/elp
+[0.266s] -- The C compiler identification is GNU 11.4.0
+[0.395s] -- The CXX compiler identification is GNU 11.4.0
+[0.434s] -- Detecting C compiler ABI info
+[0.525s] -- Detecting C compiler ABI info - done
+[0.539s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.539s] -- Detecting C compile features
+[0.540s] -- Detecting C compile features - done
+[0.552s] -- Detecting CXX compiler ABI info
+[0.648s] -- Detecting CXX compiler ABI info - done
+[0.660s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.660s] -- Detecting CXX compile features
+[0.661s] -- Detecting CXX compile features - done
+[0.676s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.846s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.921s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.992s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.084s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.095s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.129s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.288s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.299s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.458s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.499s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.583s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.662s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.663s] -- Found Threads: TRUE  
+[1.769s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.838s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[1.903s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.925s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[1.935s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.039s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.039s] -- Configured cppcheck include dirs: 
+[2.039s] -- Configured cppcheck exclude dirs and/or files: 
+[2.041s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.044s] -- Added test 'lint_cmake' to check CMake code style
+[2.045s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.052s] -- Added test 'uncrustify' to check C / C++ code style
+[2.052s] -- Configured uncrustify additional arguments: 
+[2.054s] -- Added test 'xmllint' to check XML markup files
+[2.057s] -- Configuring done (2.0s)
+[2.079s] -- Generating done (0.0s)
+[2.085s] -- Build files have been written to: /home/jpalves/dev_ws/src/elp/build/elp
+[2.104s] Invoked command in '/home/jpalves/dev_ws/src/elp/build/elp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake /home/jpalves/dev_ws/src/elp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jpalves/dev_ws/src/elp/install/elp
+[2.106s] Invoking command in '/home/jpalves/dev_ws/src/elp/build/elp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake --build /home/jpalves/dev_ws/src/elp/build/elp -- -j20 -l20
+[2.175s] [ 25%] [32mBuilding CXX object CMakeFiles/camera_pub.dir/src/camera_pub.cpp.o[0m
+[2.182s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_sub.dir/src/camera_sub.cpp.o[0m
+[5.032s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:70:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[5.032s]    70 |         }
+[5.032s]       |          [01;31m[K^[m[K
+[5.032s]       |          [32m[K;[m[K
+[5.045s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:[m[K In constructor ‘[01m[KCameraPublisher::CameraPublisher()[m[K’:
+[5.045s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_left[m[K’ was not declared in this scope
+[5.045s]    26 |             [01;31m[Kpublisher_left[m[K = image_transport::create_publisher(this, "/camera/left");
+[5.045s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.056s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:27:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_right[m[K’ was not declared in this scope
+[5.056s]    27 |             [01;31m[Kpublisher_right[m[K = image_transport::create_publisher(this, "/camera/right");
+[5.056s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.070s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:28:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_left_pub_[m[K’ was not declared in this scope
+[5.070s]    28 |             [01;31m[Kcamera_info_left_pub_[m[K = this->create_publisher<sensor_msgs::msg::CameraInfo>("/camera/left/camera_info", 10);
+[5.070s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.088s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_right_pub_[m[K’ was not declared in this scope
+[5.088s]    29 |             [01;31m[Kcamera_info_right_pub_[m[K = this->create_publisher<sensor_msgs::msg::CameraInfo>("/camera/right/camera_info", 10);
+[5.088s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.094s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap[m[K’ was not declared in this scope
+[5.094s]    31 |             [01;31m[Kcap[m[K.open(dev_video, cv::CAP_V4L2);
+[5.094s]       |             [01;31m[K^~~[m[K
+[5.098s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+[5.099s]    40 |             [01;31m[Ktimer[m[K = this->create_wall_timer(
+[5.099s]       |             [01;31m[K^~~~~[m[K
+[5.099s]       |             [32m[Ktimex[m[K
+[5.099s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:42:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KCameraPublisher[m[K’
+[5.099s]    42 |                 std::bind(&CameraPublisher::[01;31m[Ktimer_callback[m[K, this)
+[5.099s]       |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.114s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:[m[K In member function ‘[01m[Kvoid CameraPublisher::publish_image(const cv::Mat&, image_transport::Publisher)[m[K’:
+[5.114s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:68:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_pub[m[K’ was not declared in this scope
+[5.114s]    68 |                 [01;31m[Kinfo_pub[m[K->publish(*info_msg);
+[5.114s]       |                 [01;31m[K^~~~~~~~[m[K
+[5.117s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:[m[K In function ‘[01m[Kvoid timer_callback()[m[K’:
+[5.117s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap[m[K’ was not declared in this scope
+[5.117s]    74 |             [01;31m[Kcap[m[K >> img;  // Capturar frame da câmera
+[5.118s]       |             [01;31m[K^~~[m[K
+[5.124s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:83:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_left[m[K’ was not declared in this scope
+[5.124s]    83 |             publish_image(esquerda, [01;31m[Kpublisher_left[m[K);
+[5.125s]       |                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.130s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:83:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_image[m[K’ was not declared in this scope
+[5.130s]    83 |             [01;31m[Kpublish_image[m[K(esquerda, publisher_left);
+[5.130s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[5.137s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:84:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_right[m[K’ was not declared in this scope
+[5.137s]    84 |             publish_image(direita, [01;31m[Kpublisher_right[m[K, camera_info_right_pub_);
+[5.137s]       |                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.146s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:84:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_right_pub_[m[K’ was not declared in this scope
+[5.146s]    84 |             publish_image(direita, publisher_right, [01;31m[Kcamera_info_right_pub_[m[K);
+[5.146s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.147s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:[m[K At global scope:
+[5.147s] [01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:91:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[5.147s]    91 | [01;31m[K}[m[K;
+[5.147s]       | [01;31m[K^[m[K
+[6.584s] gmake[2]: *** [CMakeFiles/camera_pub.dir/build.make:76: CMakeFiles/camera_pub.dir/src/camera_pub.cpp.o] Error 1
+[6.584s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/camera_pub.dir/all] Error 2
+[6.584s] gmake[1]: *** Waiting for unfinished jobs....
+[10.442s] [ 75%] [32m[1mLinking CXX executable camera_sub[0m
+[11.406s] [ 75%] Built target camera_sub
+[11.407s] gmake: *** [Makefile:146: all] Error 2
+[11.413s] Invoked command in '/home/jpalves/dev_ws/src/elp/build/elp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake --build /home/jpalves/dev_ws/src/elp/build/elp -- -j20 -l20

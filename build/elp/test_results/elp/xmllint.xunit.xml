@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="elp.xmllint"
+  tests="7"
+  errors="0"
+  failures="0"
+  time="0.758"
+>
+  <testcase
+    name="package.xml"
+    classname="elp.xmllint"/>
+  <testcase
+    name="build/elp/test_results/elp/cppcheck.xunit.xml"
+    classname="elp.xmllint"/>
+  <testcase
+    name="build/elp/test_results/elp/flake8.xunit.xml"
+    classname="elp.xmllint"/>
+  <testcase
+    name="build/elp/test_results/elp/lint_cmake.xunit.xml"
+    classname="elp.xmllint"/>
+  <testcase
+    name="build/elp/test_results/elp/pep257.xunit.xml"
+    classname="elp.xmllint"/>
+  <testcase
+    name="build/elp/test_results/elp/uncrustify.xunit.xml"
+    classname="elp.xmllint"/>
+  <testcase
+    name="build/elp/test_results/elp/xmllint.xunit.xml"
+    classname="elp.xmllint"/>
+  <system-out>Checked files:
+* package.xml
+* build/elp/test_results/elp/cppcheck.xunit.xml
+* build/elp/test_results/elp/flake8.xunit.xml
+* build/elp/test_results/elp/lint_cmake.xunit.xml
+* build/elp/test_results/elp/pep257.xunit.xml
+* build/elp/test_results/elp/uncrustify.xunit.xml
+* build/elp/test_results/elp/xmllint.xunit.xml</system-out>
+</testsuite>

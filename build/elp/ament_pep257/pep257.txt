@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/jpalves/dev_ws/src/elp':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/pep257.xunit.xml
+
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+checking ./launch/camera_pub.launch.py
+checking ./launch/camera_sub.launch.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/pep257.xunit.xml'

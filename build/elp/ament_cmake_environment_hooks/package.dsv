@@ -1,0 +1,4 @@
+source;share/elp/local_setup.bash
+source;share/elp/local_setup.dsv
+source;share/elp/local_setup.sh
+source;share/elp/local_setup.zsh

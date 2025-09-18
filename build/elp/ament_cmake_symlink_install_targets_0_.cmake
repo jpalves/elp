@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jpalves/dev_ws/src/elp/build/elp/camera_pub" "/home/jpalves/dev_ws/src/elp/build/elp/camera_sub" "TARGETS" "camera_pub" "camera_sub" "DESTINATION" "lib/elp")

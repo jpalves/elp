@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="elp.flake8"
+  tests="4"
+  errors="0"
+  failures="4"
+  time="0.186"
+>
+  <testcase
+    name="F401 (./launch/camera_sub.launch.py:1:1)"
+    classname="elp.flake8"
+  >
+      <failure message="'os' imported but unused:&#10;import os&#10;"/>
+  </testcase>
+  <testcase
+    name="F401 (./launch/camera_sub.launch.py:4:1)"
+    classname="elp.flake8"
+  >
+      <failure message="'ament_index_python.packages.get_package_share_directory' imported but unused:&#10;from ament_index_python.packages import get_package_share_directory&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/camera_sub.launch.py:6:1)"
+    classname="elp.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/camera_pub.launch.py:6:1)"
+    classname="elp.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <system-out>Checked files:
+* ./launch/camera_sub.launch.py
+* ./launch/camera_pub.launch.py
+* ./install/_local_setup_util_ps1.py
+* ./install/_local_setup_util_sh.py</system-out>
+</testsuite>

@@ -1,0 +1,2 @@
+Invoking command in '/home/jpalves/dev_ws/src/elp/build/elp': /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/jpalves/dev_ws/src/elp/build/elp' returned '8': /usr/local/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,4 @@
+Invoking command in '/home/jpalves/dev_ws/src/elp/build/elp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake --build /home/jpalves/dev_ws/src/elp/build/elp -- -j20 -l20
+Invoked command in '/home/jpalves/dev_ws/src/elp/build/elp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake --build /home/jpalves/dev_ws/src/elp/build/elp -- -j20 -l20
+Invoking command in '/home/jpalves/dev_ws/src/elp/build/elp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake --install /home/jpalves/dev_ws/src/elp/build/elp
+Invoked command in '/home/jpalves/dev_ws/src/elp/build/elp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake --install /home/jpalves/dev_ws/src/elp/build/elp

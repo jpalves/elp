@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/jpalves/dev_ws/src/elp/build/elp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake --build /home/jpalves/dev_ws/src/elp/build/elp -- -j20 -l20
+[0.091s] [ 25%] [32mBuilding CXX object CMakeFiles/camera_pub.dir/src/camera_pub.cpp.o[0m
+[0.093s] [ 75%] Built target camera_sub
+[5.409s] [100%] [32m[1mLinking CXX executable camera_pub[0m
+[6.078s] [100%] Built target camera_pub
+[6.088s] Invoked command in '/home/jpalves/dev_ws/src/elp/build/elp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake --build /home/jpalves/dev_ws/src/elp/build/elp -- -j20 -l20
+[6.124s] Invoking command in '/home/jpalves/dev_ws/src/elp/build/elp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake --install /home/jpalves/dev_ws/src/elp/build/elp
+[6.151s] -- Install configuration: ""
+[6.152s] -- Execute custom install script
+[6.152s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/lib/elp/camera_pub
+[6.159s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/lib/elp/camera_sub
+[6.164s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/config/camera_params.yaml
+[6.167s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/config/left.yaml
+[6.171s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/config/right.yaml
+[6.175s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/launch/camera_pub.launch.py
+[6.178s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/launch/camera_sub.launch.py
+[6.182s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/ament_index/resource_index/package_run_dependencies/elp
+[6.186s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/ament_index/resource_index/parent_prefix_path/elp
+[6.189s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/environment/ament_prefix_path.sh
+[6.193s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/environment/ament_prefix_path.dsv
+[6.197s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/environment/path.sh
+[6.200s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/environment/path.dsv
+[6.204s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/local_setup.bash
+[6.208s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/local_setup.sh
+[6.211s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/local_setup.zsh
+[6.219s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/local_setup.dsv
+[6.224s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/package.dsv
+[6.228s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/ament_index/resource_index/packages/elp
+[6.232s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/cmake/elpConfig.cmake
+[6.235s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/cmake/elpConfig-version.cmake
+[6.239s] -- Symlinking: /home/jpalves/dev_ws/src/elp/install/elp/share/elp/package.xml
+[6.248s] Invoked command in '/home/jpalves/dev_ws/src/elp/build/elp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jpalves/dev_ws/install/amr_sensors:/opt/ros/humble /usr/local/bin/cmake --install /home/jpalves/dev_ws/src/elp/build/elp

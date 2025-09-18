@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="elp.pep257"
+  tests="4"
+  errors="0"
+  failures="0"
+  time="0.074"
+>
+  <testcase
+    name="./install/_local_setup_util_ps1.py"
+    classname="elp.pep257"/>
+  <testcase
+    name="./install/_local_setup_util_sh.py"
+    classname="elp.pep257"/>
+  <testcase
+    name="./launch/camera_pub.launch.py"
+    classname="elp.pep257"/>
+  <testcase
+    name="./launch/camera_sub.launch.py"
+    classname="elp.pep257"/>
+  <system-out>Checked files:
+* ./install/_local_setup_util_ps1.py
+* ./install/_local_setup_util_sh.py
+* ./launch/camera_pub.launch.py
+* ./launch/camera_sub.launch.py</system-out>
+</testsuite>

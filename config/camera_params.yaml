@@ -1,0 +1,6 @@
+camera_publisher:
+  ros__parameters:
+    frame_width: 1280
+    frame_height: 480
+    rate: 30
+    dev_video: 0

@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.000482] (elp) JobQueued: {'identifier': 'elp', 'dependencies': OrderedDict([('elp', '/home/jpalves/dev_ws/src/elp/install/elp')])}
+[0.000577] (elp) JobStarted: {'identifier': 'elp'}
+[0.098126] (elp) Command: {'cmd': ['/usr/local/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/jpalves/dev_ws/src/elp/build/elp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jpalves'), ('LC_TIME', 'pt_PT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/local/cuda-12.9/targets/x86_64-linux/lib:/usr/local/lib:/home/jpalves/dev_ws/install/deeptag_msgs/lib:/home/jpalves/dev_ws/install/compressed_image_transport/lib:/home/jpalves/dev_ws/install/compressed_depth_image_transport/lib:/home/jpalves/Trabalho/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/local/gcc-15.1.0/lib64:/home/jpalves/ORB_SLAM3/lib:/home/jpalves/ORB_SLAM3/Thirdparty/DBoW2/lib:/home/jpalves/ORB_SLAM3/Thirdparty/g2o/lib'), ('HOME', '/home/jpalves'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/jpalves/.nvm/versions/node/v24.6.0/bin'), ('NVM_INC', '/home/jpalves/.nvm/versions/node/v24.6.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3034'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '3310'), ('BUNDLED_DEBUGPY_PATH', '/home/jpalves/.vscode/extensions/ms-python.debugpy-2025.13.2025090502-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '58107'), ('NVM_DIR', '/home/jpalves/.nvm'), ('CUDA_NVRTC_LIB', '/usr/local/cuda-12.9/targets/x86_64-linux/lib'), ('COLCON_PREFIX_PATH', '/home/jpalves/Trabalho/Workspaces/ros2_cpp_ws/install:/home/jpalves/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jpalves'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:30148'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jpalves'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/home/jpalves/dev_ws/src/robot1/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/lib/dotnet/dotnet:/home/jpalves/.local/bin:/usr/local/cuda/bin:/home/jpalves/programas:/home/jpalves/Scripts:/home/jpalves/.nvm/versions/node/v24.6.0/bin:/opt/ros/humble/bin:/usr/lib/dotnet/dotnet:/home/jpalves/.cargo/bin:/home/jpalves/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jpalves/.dotnet/tools:/home/jpalves/.vscode/extensions/ms-python.debugpy-2025.13.2025090502-linux-x64/bundled/scripts/noConfigScripts:/home/jpalves/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/HOME-TSUNAMI:@/tmp/.ICE-unix/3286,unix/HOME-TSUNAMI:/tmp/.ICE-unix/3286'), ('INVOCATION_ID', '6e145fd124504e1fbd0e2587f86f4052'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/jpalves/.vscode/extensions/ms-python.debugpy-2025.13.2025090502-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-ebb4387dbf4b81fe.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/jpalves/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-48d6eeb63f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/jpalves/dev_ws/install/visual_slam:/home/jpalves/dev_ws/install/image_transport_plugins:/home/jpalves/dev_ws/install/elp:/home/jpalves/dev_ws/install/deeptag_ros:/home/jpalves/dev_ws/install/deeptag_msgs:/home/jpalves/dev_ws/install/compressed_image_transport:/home/jpalves/dev_ws/install/compressed_depth_image_transport:/home/jpalves/dev_ws/install/comandorobot1:/home/jpalves/dev_ws/install/camera:/home/jpalves/dev_ws/install/amr_sensors:/home/jpalves/Trabalho/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('CUDA_INCLUDE_DIRS', '/usr/local/cuda/include'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/models::/home/jpalves/dev_ws/src/robot1/models:'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jpalves/dev_ws/src/elp/build/elp'), ('TURTLEBOT3_MODEL', 'waffle'), ('CUDA_HOME', '/usr/local/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/jpalves/dev_ws/install/gazebo_sfm_plugin/lib:/home/jpalves/dev_ws/install/realsense_gazebo_plugin/lib:/home/jpalves/dev_ws/install/social_nav2_plugins/lib'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/jpalves/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jpalves/dev_ws/install/deeptag_ros/local/lib/python3.10/dist-packages:/home/jpalves/dev_ws/install/deeptag_msgs/local/lib/python3.10/dist-packages:/home/jpalves/dev_ws/install/comandorobot1/local/lib/python3.10/dist-packages:/home/jpalves/dev_ws/install/amr_sensors/lib/python3.10/site-packages:/home/jpalves/Trabalho/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CUDA_CUDART_LIBRARY', '/usr/local/cuda/lib64/libcudart.so'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jpalves/dev_ws/install/visual_slam:/home/jpalves/dev_ws/install/image_transport_plugins:/home/jpalves/dev_ws/install/elp:/home/jpalves/dev_ws/install/deeptag_ros:/home/jpalves/dev_ws/install/deeptag_msgs:/home/jpalves/dev_ws/install/compressed_image_transport:/home/jpalves/dev_ws/install/compressed_depth_image_transport:/home/jpalves/dev_ws/install/comandorobot1:/home/jpalves/dev_ws/install/camera:/home/jpalves/Trabalho/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/jpalves/ORB_SLAM3:/home/jpalves/ORB_SLAM3/Thirdparty/Sophus:/home/jpalves/ORB_SLAM3/Thirdparty/DBoW2:/home/jpalves/ORB_SLAM3/Thirdparty/g2o')]), 'shell': False}
+[0.102153] (-) TimerEvent: {}
+[0.134245] (elp) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/jpalves/dev_ws/src/elp/build/elp/CTestConfiguration.ini\n'}
+[0.134514] (elp) StdoutLine: {'line': b'Parse Config file:/home/jpalves/dev_ws/src/elp/build/elp/CTestConfiguration.ini\n'}
+[0.134781] (elp) StdoutLine: {'line': b'   Site: HOME-TSUNAMI\n'}
+[0.134854] (elp) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.134902] (elp) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.134948] (elp) StdoutLine: {'line': b'Create new tag: 20250911-1046 - Experimental\n'}
+[0.134994] (elp) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/jpalves/dev_ws/src/elp/build/elp/CTestConfiguration.ini\n'}
+[0.135039] (elp) StdoutLine: {'line': b'Parse Config file:/home/jpalves/dev_ws/src/elp/build/elp/CTestConfiguration.ini\n'}
+[0.135108] (elp) StdoutLine: {'line': b'Test project /home/jpalves/dev_ws/src/elp/build/elp\n'}
+[0.135162] (elp) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.135212] (elp) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.135305] (elp) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.135359] (elp) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.135410] (elp) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.135460] (elp) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.135612] (elp) StdoutLine: {'line': b'test 1\n'}
+[0.135746] (elp) StdoutLine: {'line': b'    Start 1: cppcheck\n'}
+[0.135838] (elp) StdoutLine: {'line': b'\n'}
+[0.135921] (elp) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/cppcheck.xunit.xml" "--package-name" "elp" "--output-file" "/home/jpalves/dev_ws/src/elp/build/elp/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/cppcheck.xunit.xml"\n'}
+[0.136009] (elp) StdoutLine: {'line': b'1: Working Directory: /home/jpalves/dev_ws/src/elp\n'}
+[0.136087] (elp) StdoutLine: {'line': b'1: Test timeout computed to be: 300\n'}
+[0.198282] (elp) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/jpalves/dev_ws/src/elp':\n"}
+[0.198434] (elp) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/cppcheck.xunit.xml\n'}
+[0.202277] (-) TimerEvent: {}
+[0.293401] (elp) StdoutLine: {'line': b'1: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.302437] (-) TimerEvent: {}
+[0.304172] (elp) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.304413] (elp) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/cppcheck.xunit.xml'\n"}
+[0.317095] (elp) StdoutLine: {'line': b'1/6 Test #1: cppcheck .........................   Passed    0.18 sec\n'}
+[0.317313] (elp) StdoutLine: {'line': b'test 2\n'}
+[0.317369] (elp) StdoutLine: {'line': b'    Start 2: flake8\n'}
+[0.317417] (elp) StdoutLine: {'line': b'\n'}
+[0.317465] (elp) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/flake8.xunit.xml" "--package-name" "elp" "--output-file" "/home/jpalves/dev_ws/src/elp/build/elp/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/flake8.xunit.xml"\n'}
+[0.317526] (elp) StdoutLine: {'line': b'2: Working Directory: /home/jpalves/dev_ws/src/elp\n'}
+[0.317571] (elp) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.374818] (elp) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/jpalves/dev_ws/src/elp':\n"}
+[0.375018] (elp) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/flake8.xunit.xml\n'}
+[0.402578] (-) TimerEvent: {}
+[0.502898] (-) TimerEvent: {}
+[0.603172] (-) TimerEvent: {}
+[0.659962] (elp) StdoutLine: {'line': b'2: import os\n'}
+[0.660191] (elp) StdoutLine: {'line': b'2: ^\n'}
+[0.660284] (elp) StdoutLine: {'line': b'2: from ament_index_python.packages import get_package_share_directory\n'}
+[0.660366] (elp) StdoutLine: {'line': b'2: ^\n'}
+[0.660445] (elp) StdoutLine: {'line': b'2: def generate_launch_description():\n'}
+[0.660517] (elp) StdoutLine: {'line': b'2: ^\n'}
+[0.660586] (elp) StdoutLine: {'line': b'2: def generate_launch_description():\n'}
+[0.660682] (elp) StdoutLine: {'line': b'2: ^\n'}
+[0.660732] (elp) StdoutLine: {'line': b'2: 2     E302 expected 2 blank lines, found 1\n'}
+[0.660777] (elp) StdoutLine: {'line': b"2: 2     F401 'os' imported but unused\n"}
+[0.660821] (elp) StdoutLine: {'line': b'2: \n'}
+[0.660863] (elp) StdoutLine: {'line': b"2: ./launch/camera_sub.launch.py:1:1: F401 'os' imported but unused\n"}
+[0.660907] (elp) StdoutLine: {'line': b'2: \n'}
+[0.660950] (elp) StdoutLine: {'line': b"2: ./launch/camera_sub.launch.py:4:1: F401 'ament_index_python.packages.get_package_share_directory' imported but unused\n"}
+[0.660994] (elp) StdoutLine: {'line': b'2: \n'}
+[0.661036] (elp) StdoutLine: {'line': b'2: ./launch/camera_sub.launch.py:6:1: E302 expected 2 blank lines, found 1\n'}
+[0.661080] (elp) StdoutLine: {'line': b'2: \n'}
+[0.661138] (elp) StdoutLine: {'line': b'2: ./launch/camera_pub.launch.py:6:1: E302 expected 2 blank lines, found 1\n'}
+[0.661182] (elp) StdoutLine: {'line': b'2: \n'}
+[0.661225] (elp) StdoutLine: {'line': b'2: \n'}
+[0.661267] (elp) StdoutLine: {'line': b'2: 4 files checked\n'}
+[0.661311] (elp) StdoutLine: {'line': b'2: 4 errors\n'}
+[0.661356] (elp) StdoutLine: {'line': b'2: \n'}
+[0.661399] (elp) StdoutLine: {'line': b"2: 'E'-type errors: 2\n"}
+[0.661445] (elp) StdoutLine: {'line': b"2: 'F'-type errors: 2\n"}
+[0.661500] (elp) StdoutLine: {'line': b'2: \n'}
+[0.661546] (elp) StdoutLine: {'line': b'2: Checked files:\n'}
+[0.661588] (elp) StdoutLine: {'line': b'2: \n'}
+[0.661631] (elp) StdoutLine: {'line': b'2: * ./launch/camera_sub.launch.py\n'}
+[0.661679] (elp) StdoutLine: {'line': b'2: * ./launch/camera_pub.launch.py\n'}
+[0.661722] (elp) StdoutLine: {'line': b'2: * ./install/_local_setup_util_ps1.py\n'}
+[0.661765] (elp) StdoutLine: {'line': b'2: * ./install/_local_setup_util_sh.py\n'}
+[0.680442] (elp) StdoutLine: {'line': b'2: -- run_test.py: return code 1\n'}
+[0.680648] (elp) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/flake8.xunit.xml'\n"}
+[0.689455] (elp) StdoutLine: {'line': b'2/6 Test #2: flake8 ...........................***Failed    0.37 sec\n'}
+[0.689675] (elp) StdoutLine: {'line': b'test 3\n'}
+[0.689737] (elp) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[0.689807] (elp) StdoutLine: {'line': b'\n'}
+[0.689864] (elp) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/lint_cmake.xunit.xml" "--package-name" "elp" "--output-file" "/home/jpalves/dev_ws/src/elp/build/elp/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/lint_cmake.xunit.xml"\n'}
+[0.689936] (elp) StdoutLine: {'line': b'3: Working Directory: /home/jpalves/dev_ws/src/elp\n'}
+[0.690031] (elp) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.703262] (-) TimerEvent: {}
+[0.747890] (elp) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/jpalves/dev_ws/src/elp':\n"}
+[0.748102] (elp) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/lint_cmake.xunit.xml\n'}
+[0.803449] (-) TimerEvent: {}
+[0.846179] (elp) StdoutLine: {'line': b'3: CMakeLists.txt:22: Line ends in whitespace [whitespace/eol]\n'}
+[0.846507] (elp) StdoutLine: {'line': b'3: \n'}
+[0.846575] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]\n'}
+[0.846629] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]\n'}
+[0.846709] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]\n'}
+[0.846761] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:7: Lines should be <= 140 characters long [linelength]\n'}
+[0.846811] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:8: Lines should be <= 140 characters long [linelength]\n'}
+[0.846875] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[0.846925] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:10: Lines should be <= 140 characters long [linelength]\n'}
+[0.846974] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:11: Lines should be <= 140 characters long [linelength]\n'}
+[0.847023] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:12: Lines should be <= 140 characters long [linelength]\n'}
+[0.847072] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:13: Lines should be <= 140 characters long [linelength]\n'}
+[0.847120] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:14: Lines should be <= 140 characters long [linelength]\n'}
+[0.847168] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:15: Lines should be <= 140 characters long [linelength]\n'}
+[0.847217] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:16: Lines should be <= 140 characters long [linelength]\n'}
+[0.847264] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:17: Lines should be <= 140 characters long [linelength]\n'}
+[0.847313] (elp) StdoutLine: {'line': b'3: build/elp/CTestTestfile.cmake:18: Lines should be <= 140 characters long [linelength]\n'}
+[0.847360] (elp) StdoutLine: {'line': b'3: \n'}
+[0.847427] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install_targets_0_.cmake:1: Lines should be <= 140 characters long [linelength]\n'}
+[0.847488] (elp) StdoutLine: {'line': b'3: \n'}
+[0.847538] (elp) StdoutLine: {'line': b'3: build/elp/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.847587] (elp) StdoutLine: {'line': b'3: build/elp/cmake_install.cmake:56: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.847634] (elp) StdoutLine: {'line': b'3: build/elp/cmake_install.cmake:58: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[0.847682] (elp) StdoutLine: {'line': b'3: \n'}
+[0.847729] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.847778] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/Makefile.cmake:801: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.847826] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/Makefile.cmake:807: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.847874] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/Makefile.cmake:837: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.847922] (elp) StdoutLine: {'line': b'3: \n'}
+[0.847970] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/3.27.0/CMakeCCompiler.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[0.848019] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/3.27.0/CMakeCCompiler.cmake:71: Lines should be <= 140 characters long [linelength]\n'}
+[0.848067] (elp) StdoutLine: {'line': b'3: \n'}
+[0.848115] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[0.848163] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake:11: Lines should be <= 140 characters long [linelength]\n'}
+[0.848298] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake:12: Lines should be <= 140 characters long [linelength]\n'}
+[0.848350] (elp) StdoutLine: {'line': b"3: build/elp/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake:43: Extra spaces between 'foreach' and its () [whitespace/extra]\n"}
+[0.848473] (elp) StdoutLine: {'line': b"3: build/elp/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake:44: Extra spaces between 'if' and its () [whitespace/extra]\n"}
+[0.848521] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/3.27.0/CMakeCXXCompiler.cmake:82: Lines should be <= 140 characters long [linelength]\n'}
+[0.848563] (elp) StdoutLine: {'line': b'3: \n'}
+[0.848605] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/camera_pub.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.848647] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/camera_pub.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.848690] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/camera_pub.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.848732] (elp) StdoutLine: {'line': b'3: \n'}
+[0.848774] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/camera_sub.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.848816] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/camera_sub.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.848858] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/camera_sub.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.848905] (elp) StdoutLine: {'line': b'3: \n'}
+[0.848947] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/elp_uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.848990] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/elp_uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849035] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/elp_uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849078] (elp) StdoutLine: {'line': b'3: \n'}
+[0.849120] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/elp_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849162] (elp) StdoutLine: {'line': b'3: \n'}
+[0.849204] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849246] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849288] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849330] (elp) StdoutLine: {'line': b'3: \n'}
+[0.849372] (elp) StdoutLine: {'line': b'3: build/elp/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849414] (elp) StdoutLine: {'line': b'3: \n'}
+[0.849455] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_core/package.cmake:4: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849504] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_core/package.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849548] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849591] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849632] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_core/package.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[0.849674] (elp) StdoutLine: {'line': b'3: \n'}
+[0.849715] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 140 characters long [linelength]\n'}
+[0.849757] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:2: Lines should be <= 140 characters long [linelength]\n'}
+[0.849801] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:4: Lines should be <= 140 characters long [linelength]\n'}
+[0.849843] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:5: Lines should be <= 140 characters long [linelength]\n'}
+[0.849884] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:6: Lines should be <= 140 characters long [linelength]\n'}
+[0.849925] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:8: Lines should be <= 140 characters long [linelength]\n'}
+[0.849967] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[0.850009] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:10: Lines should be <= 140 characters long [linelength]\n'}
+[0.850065] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:11: Lines should be <= 140 characters long [linelength]\n'}
+[0.850110] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:12: Lines should be <= 140 characters long [linelength]\n'}
+[0.850152] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:13: Lines should be <= 140 characters long [linelength]\n'}
+[0.850194] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_package_templates/templates.cmake:14: Lines should be <= 140 characters long [linelength]\n'}
+[0.850239] (elp) StdoutLine: {'line': b'3: \n'}
+[0.850281] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:322: Lines should be <= 140 characters long [linelength]\n'}
+[0.850323] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323: Lines should be <= 140 characters long [linelength]\n'}
+[0.850364] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:325: Lines should be <= 140 characters long [linelength]\n'}
+[0.850406] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326: Lines should be <= 140 characters long [linelength]\n'}
+[0.850448] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:328: Lines should be <= 140 characters long [linelength]\n'}
+[0.850496] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329: Lines should be <= 140 characters long [linelength]\n'}
+[0.850540] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:331: Lines should be <= 140 characters long [linelength]\n'}
+[0.850582] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:332: Lines should be <= 140 characters long [linelength]\n'}
+[0.850629] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:335: Lines should be <= 140 characters long [linelength]\n'}
+[0.850671] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:338: Lines should be <= 140 characters long [linelength]\n'}
+[0.850713] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:341: Lines should be <= 140 characters long [linelength]\n'}
+[0.850754] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:344: Lines should be <= 140 characters long [linelength]\n'}
+[0.850796] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:347: Lines should be <= 140 characters long [linelength]\n'}
+[0.850838] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:350: Lines should be <= 140 characters long [linelength]\n'}
+[0.850883] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:353: Lines should be <= 140 characters long [linelength]\n'}
+[0.850926] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:355: Lines should be <= 140 characters long [linelength]\n'}
+[0.850969] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:356: Lines should be <= 140 characters long [linelength]\n'}
+[0.851010] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:358: Lines should be <= 140 characters long [linelength]\n'}
+[0.851052] (elp) StdoutLine: {'line': b'3: build/elp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:359: Lines should be <= 140 characters long [linelength]\n'}
+[0.851094] (elp) StdoutLine: {'line': b'3: \n'}
+[0.851136] (elp) StdoutLine: {'line': b'3: \n'}
+[0.851179] (elp) StdoutLine: {'line': b'3: 82 errors\n'}
+[0.857318] (elp) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[0.857480] (elp) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/lint_cmake.xunit.xml'\n"}
+[0.866702] (elp) StdoutLine: {'line': b'3/6 Test #3: lint_cmake .......................***Failed    0.18 sec\n'}
+[0.866869] (elp) StdoutLine: {'line': b'test 4\n'}
+[0.866918] (elp) StdoutLine: {'line': b'    Start 4: pep257\n'}
+[0.866964] (elp) StdoutLine: {'line': b'\n'}
+[0.867009] (elp) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/pep257.xunit.xml" "--package-name" "elp" "--output-file" "/home/jpalves/dev_ws/src/elp/build/elp/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/pep257.xunit.xml"\n'}
+[0.867057] (elp) StdoutLine: {'line': b'4: Working Directory: /home/jpalves/dev_ws/src/elp\n'}
+[0.867100] (elp) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.903542] (-) TimerEvent: {}
+[0.924339] (elp) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/jpalves/dev_ws/src/elp':\n"}
+[0.924626] (elp) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/pep257.xunit.xml\n'}
+[1.003630] (-) TimerEvent: {}
+[1.103875] (-) TimerEvent: {}
+[1.109002] (elp) StdoutLine: {'line': b'4: checking ./install/_local_setup_util_ps1.py\n'}
+[1.109166] (elp) StdoutLine: {'line': b'4: checking ./install/_local_setup_util_sh.py\n'}
+[1.109249] (elp) StdoutLine: {'line': b'4: checking ./launch/camera_pub.launch.py\n'}
+[1.109328] (elp) StdoutLine: {'line': b'4: checking ./launch/camera_sub.launch.py\n'}
+[1.109405] (elp) StdoutLine: {'line': b'4: No problems found\n'}
+[1.125565] (elp) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.125775] (elp) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/pep257.xunit.xml'\n"}
+[1.135517] (elp) StdoutLine: {'line': b'4/6 Test #4: pep257 ...........................   Passed    0.27 sec\n'}
+[1.135741] (elp) StdoutLine: {'line': b'test 5\n'}
+[1.135826] (elp) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[1.135906] (elp) StdoutLine: {'line': b'\n'}
+[1.135984] (elp) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/uncrustify.xunit.xml" "--package-name" "elp" "--output-file" "/home/jpalves/dev_ws/src/elp/build/elp/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/uncrustify.xunit.xml"\n'}
+[1.136066] (elp) StdoutLine: {'line': b'5: Working Directory: /home/jpalves/dev_ws/src/elp\n'}
+[1.136152] (elp) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.198857] (elp) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/jpalves/dev_ws/src/elp':\n"}
+[1.199040] (elp) StdoutLine: {'line': b'5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/uncrustify.xunit.xml\n'}
+[1.203930] (-) TimerEvent: {}
+[1.304141] (-) TimerEvent: {}
+[1.369421] (elp) StdoutLine: {'line': b"5: /opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/configuration/ament_code_style.cfg:66: option 'sp_cpp_lambda_paren' is deprecated; use 'sp_cpp_lambda_square_paren' instead\n"}
+[1.369723] (elp) StdoutLine: {'line': b"5: /opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/configuration/ament_code_style.cfg:519: option 'sp_word_brace' is deprecated; did you want to use 'sp_type_brace_init_lst' instead?\n"}
+[1.369827] (elp) StdoutLine: {'line': b'5: Output prefix: /tmp/uncrustify_rdwytixa/\n'}
+[1.369914] (elp) StdoutLine: {'line': b'5: Output suffix: .uncrustify\n'}
+[1.370011] (elp) StdoutLine: {'line': b'5: Parsing: /home/jpalves/dev_ws/src/elp/build/elp/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp as language CPP\n'}
+[1.370107] (elp) StdoutLine: {'line': b'5: Parsing: /home/jpalves/dev_ws/src/elp/src/camera_pub.cpp as language CPP\n'}
+[1.370188] (elp) StdoutLine: {'line': b"5: parse_cleanup(456): pc->orig_line is 91, orig_col is 1, text() is '}', type is BRACE_CLOSE\n"}
+[1.370269] (elp) StdoutLine: {'line': b'5: parse_cleanup(458): (frm.top().type + 1) is UNKNOWN\n'}
+[1.370348] (elp) StdoutLine: {'line': b'5: parse_cleanup(869): Unmatched BRACE_CLOSE\n'}
+[1.370426] (elp) StdoutLine: {'line': b'5:    orig_line is 91, orig_col is 1\n'}
+[1.370519] (elp) StdoutLine: {'line': b"5: parse_cleanup(876): Try the option 'tok_split_gte = true'\n"}
+[1.370603] (elp) StdoutLine: {'line': b'5: \n'}
+[1.370682] (elp) StdoutLine: {'line': b"5: The invocation of 'uncrustify' failed with error code 1: Command '['/usr/bin/uncrustify', '-c', '/opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/configuration/ament_code_style.cfg', '-l', 'CPP', '--prefix', '/tmp/uncrustify_rdwytixa', '--suffix', '.uncrustify', '/home/jpalves/dev_ws/src/elp/build/elp/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp', '/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp', '/home/jpalves/dev_ws/src/elp/src/camera_sub.cpp']' returned non-zero exit status 1.\n"}
+[1.383169] (elp) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[1.383375] (elp) StdoutLine: {'line': b"5: -- run_test.py: generate result file '/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/uncrustify.xunit.xml' with failed test\n"}
+[1.383519] (elp) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/uncrustify.xunit.xml'\n"}
+[1.392205] (elp) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................***Failed    0.26 sec\n'}
+[1.392402] (elp) StdoutLine: {'line': b'test 6\n'}
+[1.392591] (elp) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[1.392666] (elp) StdoutLine: {'line': b'\n'}
+[1.392714] (elp) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/xmllint.xunit.xml" "--package-name" "elp" "--output-file" "/home/jpalves/dev_ws/src/elp/build/elp/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/xmllint.xunit.xml"\n'}
+[1.392763] (elp) StdoutLine: {'line': b'6: Working Directory: /home/jpalves/dev_ws/src/elp\n'}
+[1.392807] (elp) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[1.404216] (-) TimerEvent: {}
+[1.456937] (elp) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/jpalves/dev_ws/src/elp':\n"}
+[1.457230] (elp) StdoutLine: {'line': b'6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/xmllint.xunit.xml\n'}
+[1.504313] (-) TimerEvent: {}
+[1.604759] (-) TimerEvent: {}
+[1.705205] (-) TimerEvent: {}
+[1.805737] (-) TimerEvent: {}
+[1.906205] (-) TimerEvent: {}
+[2.006673] (-) TimerEvent: {}
+[2.107163] (-) TimerEvent: {}
+[2.207563] (-) TimerEvent: {}
+[2.284383] (elp) StdoutLine: {'line': b"6: File 'package.xml' is valid\n"}
+[2.284683] (elp) StdoutLine: {'line': b'6: \n'}
+[2.284807] (elp) StdoutLine: {'line': b"6: File 'build/elp/test_results/elp/cppcheck.xunit.xml' is valid\n"}
+[2.284913] (elp) StdoutLine: {'line': b'6: \n'}
+[2.285015] (elp) StdoutLine: {'line': b"6: File 'build/elp/test_results/elp/flake8.xunit.xml' is valid\n"}
+[2.285117] (elp) StdoutLine: {'line': b'6: \n'}
+[2.285217] (elp) StdoutLine: {'line': b"6: File 'build/elp/test_results/elp/lint_cmake.xunit.xml' is valid\n"}
+[2.285319] (elp) StdoutLine: {'line': b'6: \n'}
+[2.285419] (elp) StdoutLine: {'line': b"6: File 'build/elp/test_results/elp/pep257.xunit.xml' is valid\n"}
+[2.285550] (elp) StdoutLine: {'line': b'6: \n'}
+[2.285630] (elp) StdoutLine: {'line': b"6: File 'build/elp/test_results/elp/uncrustify.xunit.xml' is valid\n"}
+[2.285709] (elp) StdoutLine: {'line': b'6: \n'}
+[2.285788] (elp) StdoutLine: {'line': b"6: File 'build/elp/test_results/elp/xmllint.xunit.xml' is valid\n"}
+[2.285865] (elp) StdoutLine: {'line': b'6: \n'}
+[2.285942] (elp) StdoutLine: {'line': b'6: No problems found\n'}
+[2.295548] (elp) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[2.295728] (elp) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/xmllint.xunit.xml'\n"}
+[2.304251] (elp) StdoutLine: {'line': b'6/6 Test #6: xmllint ..........................   Passed    0.91 sec\n'}
+[2.304504] (elp) StdoutLine: {'line': b'\n'}
+[2.304567] (elp) StdoutLine: {'line': b'50% tests passed\x1b[0;0m, \x1b[0;31m3 tests failed\x1b[0;0m out of 6\n'}
+[2.304717] (elp) StdoutLine: {'line': b'\n'}
+[2.304852] (elp) StdoutLine: {'line': b'Label Time Summary:\n'}
+[2.304932] (elp) StdoutLine: {'line': b'cppcheck      =   0.18 sec*proc (1 test)\n'}
+[2.305010] (elp) StdoutLine: {'line': b'flake8        =   0.37 sec*proc (1 test)\n'}
+[2.305087] (elp) StdoutLine: {'line': b'lint_cmake    =   0.18 sec*proc (1 test)\n'}
+[2.305164] (elp) StdoutLine: {'line': b'linter        =   2.17 sec*proc (6 tests)\n'}
+[2.305249] (elp) StdoutLine: {'line': b'pep257        =   0.27 sec*proc (1 test)\n'}
+[2.305352] (elp) StdoutLine: {'line': b'uncrustify    =   0.26 sec*proc (1 test)\n'}
+[2.305429] (elp) StdoutLine: {'line': b'xmllint       =   0.91 sec*proc (1 test)\n'}
+[2.305501] (elp) StdoutLine: {'line': b'\n'}
+[2.305547] (elp) StdoutLine: {'line': b'Total Test time (real) =   2.17 sec\n'}
+[2.305591] (elp) StdoutLine: {'line': b'\n'}
+[2.305633] (elp) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[2.305677] (elp) StdoutLine: {'line': b'\t\x1b[0;31m  2 - flake8 (Failed)\x1b[0;0m\n'}
+[2.305719] (elp) StdoutLine: {'line': b'\t\x1b[0;31m  3 - lint_cmake (Failed)\x1b[0;0m\n'}
+[2.305761] (elp) StdoutLine: {'line': b'\t\x1b[0;31m  5 - uncrustify (Failed)\x1b[0;0m\n'}
+[2.307611] (-) TimerEvent: {}
+[2.310045] (elp) StderrLine: {'line': b'Errors while running CTest\n'}
+[2.310243] (elp) StderrLine: {'line': b'Output from these tests are in: /home/jpalves/dev_ws/src/elp/build/elp/Testing/Temporary/LastTest.log\n'}
+[2.310326] (elp) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[2.315210] (elp) CommandEnded: {'returncode': 8}
+[2.315647] (elp) TestFailure: {'identifier': 'elp'}
+[2.315749] (elp) JobEnded: {'identifier': 'elp', 'rc': 0}
+[2.316231] (-) EventReactorShutdown: {}

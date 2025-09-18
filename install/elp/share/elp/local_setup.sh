@@ -1,0 +1,1 @@
+/home/jpalves/dev_ws/src/elp/build/elp/ament_cmake_environment_hooks/local_setup.sh

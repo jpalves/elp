@@ -1,0 +1,39 @@
+-- run_test.py: invoking following command in '/home/jpalves/dev_ws/src/elp':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/flake8.xunit.xml
+
+import os
+^
+from ament_index_python.packages import get_package_share_directory
+^
+def generate_launch_description():
+^
+def generate_launch_description():
+^
+2     E302 expected 2 blank lines, found 1
+2     F401 'os' imported but unused
+
+./launch/camera_sub.launch.py:1:1: F401 'os' imported but unused
+
+./launch/camera_sub.launch.py:4:1: F401 'ament_index_python.packages.get_package_share_directory' imported but unused
+
+./launch/camera_sub.launch.py:6:1: E302 expected 2 blank lines, found 1
+
+./launch/camera_pub.launch.py:6:1: E302 expected 2 blank lines, found 1
+
+
+4 files checked
+4 errors
+
+'E'-type errors: 2
+'F'-type errors: 2
+
+Checked files:
+
+* ./launch/camera_sub.launch.py
+* ./launch/camera_pub.launch.py
+* ./install/_local_setup_util_ps1.py
+* ./install/_local_setup_util_sh.py
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/jpalves/dev_ws/src/elp/build/elp/test_results/elp/flake8.xunit.xml'

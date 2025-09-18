@@ -1,0 +1,55 @@
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:70:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   70 |         }
+      |          [01;31m[K^[m[K
+      |          [32m[K;[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:[m[K In constructor ‘[01m[KCameraPublisher::CameraPublisher()[m[K’:
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_left[m[K’ was not declared in this scope
+   26 |             [01;31m[Kpublisher_left[m[K = image_transport::create_publisher(this, "/camera/left");
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:27:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_right[m[K’ was not declared in this scope
+   27 |             [01;31m[Kpublisher_right[m[K = image_transport::create_publisher(this, "/camera/right");
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:28:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_left_pub_[m[K’ was not declared in this scope
+   28 |             [01;31m[Kcamera_info_left_pub_[m[K = this->create_publisher<sensor_msgs::msg::CameraInfo>("/camera/left/camera_info", 10);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_right_pub_[m[K’ was not declared in this scope
+   29 |             [01;31m[Kcamera_info_right_pub_[m[K = this->create_publisher<sensor_msgs::msg::CameraInfo>("/camera/right/camera_info", 10);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap[m[K’ was not declared in this scope
+   31 |             [01;31m[Kcap[m[K.open(dev_video, cv::CAP_V4L2);
+      |             [01;31m[K^~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimex[m[K’?
+   40 |             [01;31m[Ktimer[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~[m[K
+      |             [32m[Ktimex[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:42:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KCameraPublisher[m[K’
+   42 |                 std::bind(&CameraPublisher::[01;31m[Ktimer_callback[m[K, this)
+      |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:[m[K In member function ‘[01m[Kvoid CameraPublisher::publish_image(const cv::Mat&, image_transport::Publisher)[m[K’:
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:68:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_pub[m[K’ was not declared in this scope
+   68 |                 [01;31m[Kinfo_pub[m[K->publish(*info_msg);
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:[m[K In function ‘[01m[Kvoid timer_callback()[m[K’:
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap[m[K’ was not declared in this scope
+   74 |             [01;31m[Kcap[m[K >> img;  // Capturar frame da câmera
+      |             [01;31m[K^~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:83:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_left[m[K’ was not declared in this scope
+   83 |             publish_image(esquerda, [01;31m[Kpublisher_left[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:83:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_image[m[K’ was not declared in this scope
+   83 |             [01;31m[Kpublish_image[m[K(esquerda, publisher_left);
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:84:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_right[m[K’ was not declared in this scope
+   84 |             publish_image(direita, [01;31m[Kpublisher_right[m[K, camera_info_right_pub_);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:84:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_right_pub_[m[K’ was not declared in this scope
+   84 |             publish_image(direita, publisher_right, [01;31m[Kcamera_info_right_pub_[m[K);
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:[m[K At global scope:
+[01m[K/home/jpalves/dev_ws/src/elp/src/camera_pub.cpp:91:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   91 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/camera_pub.dir/build.make:76: CMakeFiles/camera_pub.dir/src/camera_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/camera_pub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
